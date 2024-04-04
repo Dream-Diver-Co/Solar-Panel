@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Solar Panel</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/solar.css">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark p-0">
+        <div class="row gx-0 d-none d-lg-flex">
+            <div class="col-lg-7 px-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <small class="fa fa-map-marker-alt text-primary me-2"></small>
+                    <small>123 Street, New York, USA</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center">
+                    <small class="far fa-clock text-primary me-2"></small>
+                    <small>Mon - Fri : 09.00 AM - 09.00 PM</small>
+                </div>
+            </div>
+            <div class="col-lg-5 px-5 text-end">
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <small class="fa fa-phone-alt text-primary me-2"></small>
+                    <small>+012 345 6789</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center mx-n2">
+                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-square btn-link rounded-0" href=""><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
+            <h2 class="m-0 text-primary">Solartec</h2>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="service.html" class="nav-item nav-link">Service</a>
+                <a href="project.html" class="nav-item nav-link">Project</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <div class="dropdown-menu bg-light m-0">
+                        <a href="feature.html" class="dropdown-item">Feature</a>
+                        <a href="quote.html" class="dropdown-item">Free Quote</a>
+                        <a href="team.html" class="dropdown-item">Our Team</a>
+                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                        <a href="404.html" class="dropdown-item">404 Page</a>
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+            <a href="" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Get A Quote<i class="fa fa-arrow-right ms-3"></i></a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+        <!-- Carousel Start -->
+        <div class="container-fluid p-0 pb-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="bg-hero">
+                <div class="container-hero">
+                    <div class="row justify-content-start">
+                        <div class="col-10 col-lg-8">
+                            <h1 class="display-2 text-white animated slideInDown">Pioneers Of Solar And Renewable Energy</h1>
+                            <p class="fs-5 fw-medium text-white mb-4 pb-3">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
+                            <a href="" class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">Read More</a>
+                        </div>
+                    </div>
+                <div class="stolby">
+                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     width="511.411px" height="407.229px" viewBox="0 0 511.411 407.229" enable-background="new 0 0 511.411 407.229"
+                     xml:space="preserve">
+                <g>
+                    <polygon points="374.238,407.229 336.238,407.229 346.238,32.229 364.238,32.229 	"/>
+                    <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="374.3179" y1="233.0791" x2="332.9839" y2="234.4131">
+                        <stop  offset="0" style="stop-color:#6A4301"/>
+                        <stop  offset="0.1656" style="stop-color:#030500"/>
+                        <stop  offset="0.4969" style="stop-color:#06224B"/>
+                        <stop  offset="1" style="stop-color:#132457"/>
+                    </linearGradient>
+                    <path fill="url(#SVGID_1_)" d="M354.571,60.562c-3.076,0-6.105-0.24-9.07-0.698l-9.263,347.365h38l-9.27-347.601
+                        C361.581,60.229,358.11,60.562,354.571,60.562z"/>
+                    <path fill="#010E2B" d="M365.125,0.643c0,0-45.873,12.13-40.393,26.906c5.48,14.776,50.432,2.771,50.432,2.771
+                        s14.19-8.514,7.741-21.09C376.238-3.771,365.125,0.643,365.125,0.643z"/>
+                    <g>
+                        <path d="M382.905,9.229c-0.193-0.376-0.391-0.734-0.591-1.082c0.701,8.776-8.046,15.199-8.046,15.199s-41.478,15.309-49.883,2.916
+                            c0.074,0.427,0.187,0.855,0.347,1.287c5.48,14.776,50.432,2.771,50.432,2.771S389.354,21.806,382.905,9.229z"/>
+                        <path fill="#010E2B" d="M374.268,23.346c0,0,8.747-6.422,8.046-15.199c-6.711-11.663-17.189-7.504-17.189-7.504
+                            s-43.229,11.432-40.739,25.619C332.791,38.655,374.268,23.346,374.268,23.346z"/>
+                    </g>
+                    <circle cx="369.561" cy="15.612" r="15.611"/>
+                    <path fill="#8C330C" d="M351.489,8.312c0,0-20.962,7.299-23.834,14.25c-2.146,5.193,22.5-2.667,22.5-2.667s-1.083-2.333-0.666-6
+                        S351.489,8.312,351.489,8.312"/>
+                </g>
+                <g>
+                    <polygon points="39.658,407.268 9.494,407.268 17.432,109.596 31.72,109.596 	"/>
+                    <linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="39.7222" y1="269.0303" x2="6.912" y2="270.0892">
+                        <stop  offset="0" style="stop-color:#6A4301"/>
+                        <stop  offset="0.1656" style="stop-color:#030500"/>
+                        <stop  offset="0.4969" style="stop-color:#06224B"/>
+                        <stop  offset="1" style="stop-color:#132457"/>
+                    </linearGradient>
+                    <path fill="url(#SVGID_2_)" d="M24.047,132.086c-2.442,0-4.847-0.19-7.2-0.554L9.494,407.268h30.164L32.3,131.345
+                        C29.611,131.822,26.856,132.086,24.047,132.086z"/>
+                    <path fill="#010E2B" d="M32.424,84.523c0,0-36.414,9.628-32.063,21.358c4.351,11.729,40.032,2.199,40.032,2.199
+                        s11.264-6.758,6.145-16.741C41.246,81.02,32.424,84.523,32.424,84.523z"/>
+                    <g>
+                        <path d="M46.538,91.339c-0.154-0.299-0.31-0.583-0.469-0.859c0.557,6.966-6.387,12.064-6.387,12.064s-32.924,12.152-39.597,2.314
+                            c0.059,0.339,0.148,0.679,0.275,1.022c4.351,11.729,40.032,2.199,40.032,2.199S51.657,101.322,46.538,91.339z"/>
+                        <path fill="#010E2B" d="M39.682,102.545c0,0,6.943-5.098,6.387-12.064c-5.327-9.258-13.645-5.957-13.645-5.957
+                            s-34.315,9.075-32.339,20.336C6.758,114.697,39.682,102.545,39.682,102.545z"/>
+                    </g>
+                    <circle cx="35.946" cy="96.405" r="12.392"/>
+                    <path fill="#8C330C" d="M21.6,90.611c0,0-16.639,5.794-18.919,11.312c-1.703,4.123,17.86-2.117,17.86-2.117
+                        s-0.86-1.852-0.529-4.763C20.344,92.133,21.6,90.611,21.6,90.611"/>
+                </g>
+                <g opacity="0.83">
+                    <polygon points="177.916,407.268 163.957,407.268 167.63,269.515 174.243,269.515 	"/>
+                    <linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="177.9448" y1="343.2949" x2="162.7619" y2="343.7849">
+                        <stop  offset="0" style="stop-color:#6A4301"/>
+                        <stop  offset="0.1656" style="stop-color:#030500"/>
+                        <stop  offset="0.4969" style="stop-color:#06224B"/>
+                        <stop  offset="1" style="stop-color:#132457"/>
+                    </linearGradient>
+                    <path fill="url(#SVGID_3_)" d="M170.691,279.923c-1.13,0-2.243-0.089-3.332-0.257l-3.402,127.602h13.959l-3.405-127.688
+                        C173.266,279.801,171.992,279.923,170.691,279.923z"/>
+                    <path fill="#010E2B" d="M174.568,257.912c0,0-16.851,4.456-14.838,9.884s18.525,1.018,18.525,1.018s5.213-3.128,2.844-7.747
+                        C178.65,256.291,174.568,257.912,174.568,257.912z"/>
+                    <g>
+                        <path d="M181.1,261.066c-0.071-0.139-0.144-0.27-0.217-0.397c0.258,3.224-2.955,5.583-2.955,5.583s-15.236,5.624-18.324,1.071
+                            c0.027,0.156,0.069,0.313,0.127,0.473c2.013,5.428,18.525,1.018,18.525,1.018S183.469,265.686,181.1,261.066z"/>
+                        <path fill="#010E2B" d="M177.927,266.252c0,0,3.213-2.359,2.955-5.583c-2.465-4.284-6.314-2.757-6.314-2.757
+                            s-15.88,4.199-14.965,9.411C162.691,271.876,177.927,266.252,177.927,266.252z"/>
+                    </g>
+                    <circle cx="176.198" cy="263.41" r="5.735"/>
+                    <path fill="#8C330C" d="M169.559,260.729c0,0-7.7,2.681-8.755,5.234c-0.788,1.907,8.265-0.979,8.265-0.979
+                        s-0.398-0.857-0.245-2.204S169.559,260.729,169.559,260.729"/>
+                </g>
+                <g opacity="0.95">
+                    <polygon points="505.428,407.268 484.645,407.268 490.115,202.164 499.959,202.164 	"/>
+                    <linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="505.4741" y1="312.0166" x2="482.8659" y2="312.7462">
+                        <stop  offset="0" style="stop-color:#6A4301"/>
+                        <stop  offset="0.1656" style="stop-color:#030500"/>
+                        <stop  offset="0.4969" style="stop-color:#06224B"/>
+                        <stop  offset="1" style="stop-color:#132457"/>
+                    </linearGradient>
+                    <path fill="url(#SVGID_4_)" d="M494.671,217.661c-1.681,0-3.339-0.133-4.961-0.383l-5.065,189.989h20.783l-5.068-190.118
+                        C498.505,217.479,496.608,217.661,494.671,217.661z"/>
+                    <path fill="#010E2B" d="M500.444,184.889c0,0-25.089,6.635-22.093,14.716c2.999,8.082,27.583,1.516,27.583,1.516
+                        s7.762-4.657,4.234-11.535C506.522,182.475,500.444,184.889,500.444,184.889z"/>
+                    <g>
+                        <path d="M510.168,189.585c-0.104-0.206-0.212-0.401-0.322-0.592c0.384,4.8-4.4,8.312-4.4,8.312s-22.686,8.374-27.283,1.596
+                            c0.041,0.232,0.102,0.467,0.188,0.703c2.999,8.082,27.583,1.516,27.583,1.516S513.696,196.463,510.168,189.585z"/>
+                        <path fill="#010E2B" d="M505.446,197.306c0,0,4.784-3.513,4.4-8.312c-3.671-6.379-9.402-4.104-9.402-4.104
+                            s-23.643,6.252-22.281,14.013C482.76,205.68,505.446,197.306,505.446,197.306z"/>
+                    </g>
+                    <circle cx="502.872" cy="193.075" r="8.539"/>
+                    <path fill="#8C330C" d="M492.986,189.084c0,0-11.465,3.991-13.035,7.793c-1.173,2.84,12.308-1.458,12.308-1.458
+                        s-0.594-1.276-0.365-3.282C492.122,190.132,492.986,189.084,492.986,189.084"/>
+                </g>
+                </svg>
+                </div>
+                <div id="v1">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     width="386.318px" height="383.263px" viewBox="0 0 386.318 383.263" enable-background="new 0 0 386.318 383.263"
+                     xml:space="preserve">
+                <g>
+                    <g>
+                        <path d="M130.94,3.861c0,0,22.969,107.389,27.945,126.642c7.857,30.4,27.35,60.646,27.35,60.646l12.485-2.974
+                            c0,0-59.456-196.799-67.78-187.881"/>
+                        <path d="M48.472,334.449c0,0,85.37-69.078,100.287-82.228c23.553-20.765,41.703-51.834,41.703-51.834l-8.302-9.789
+                            c0,0-148.589,142.079-136.869,145.465"/>
+                        <path d="M383.356,248.43c0,0-101.435-42.082-120.107-48.92c-29.485-10.797-65.449-11.929-65.449-11.929l-4.644,11.965
+                            c0,0,195.751,62.826,193.136,50.909"/>
+                    </g>
+                    <circle cx="193.021" cy="192.458" r="14.449"/>
+                </g>
+                </svg>
+                  </div>
+                  
+                 
+                 <div id="v1">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     width="386.318px" height="383.263px" viewBox="0 0 386.318 383.263" enable-background="new 0 0 386.318 383.263"
+                     xml:space="preserve">
+                <g>
+                    <g>
+                        <path d="M130.94,3.861c0,0,22.969,107.389,27.945,126.642c7.857,30.4,27.35,60.646,27.35,60.646l12.485-2.974
+                            c0,0-59.456-196.799-67.78-187.881"/>
+                        <path d="M48.472,334.449c0,0,85.37-69.078,100.287-82.228c23.553-20.765,41.703-51.834,41.703-51.834l-8.302-9.789
+                            c0,0-148.589,142.079-136.869,145.465"/>
+                        <path d="M383.356,248.43c0,0-101.435-42.082-120.107-48.92c-29.485-10.797-65.449-11.929-65.449-11.929l-4.644,11.965
+                            c0,0,195.751,62.826,193.136,50.909"/>
+                    </g>
+                    <circle cx="193.021" cy="192.458" r="14.449"/>
+                </g>
+                </svg>
+                  </div>
+                  
+                 
+                  <div id="v2">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     width="386.318px" height="383.263px" viewBox="0 0 386.318 383.263" enable-background="new 0 0 386.318 383.263"
+                     xml:space="preserve">
+                <g>
+                    <g>
+                        <path d="M130.94,3.861c0,0,22.969,107.389,27.945,126.642c7.857,30.4,27.35,60.646,27.35,60.646l12.485-2.974
+                            c0,0-59.456-196.799-67.78-187.881"/>
+                        <path d="M48.472,334.449c0,0,85.37-69.078,100.287-82.228c23.553-20.765,41.703-51.834,41.703-51.834l-8.302-9.789
+                            c0,0-148.589,142.079-136.869,145.465"/>
+                        <path d="M383.356,248.43c0,0-101.435-42.082-120.107-48.92c-29.485-10.797-65.449-11.929-65.449-11.929l-4.644,11.965
+                            c0,0,195.751,62.826,193.136,50.909"/>
+                    </g>
+                    <circle cx="193.021" cy="192.458" r="14.449"/>
+                </g>
+                </svg>
+                  </div>
+                  
+                  
+                  <div id="v3">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     width="386.318px" height="383.263px" viewBox="0 0 386.318 383.263" enable-background="new 0 0 386.318 383.263"
+                     xml:space="preserve">
+                <g>
+                    <g>
+                        <path d="M130.94,3.861c0,0,22.969,107.389,27.945,126.642c7.857,30.4,27.35,60.646,27.35,60.646l12.485-2.974
+                            c0,0-59.456-196.799-67.78-187.881"/>
+                        <path d="M48.472,334.449c0,0,85.37-69.078,100.287-82.228c23.553-20.765,41.703-51.834,41.703-51.834l-8.302-9.789
+                            c0,0-148.589,142.079-136.869,145.465"/>
+                        <path d="M383.356,248.43c0,0-101.435-42.082-120.107-48.92c-29.485-10.797-65.449-11.929-65.449-11.929l-4.644,11.965
+                            c0,0,195.751,62.826,193.136,50.909"/>
+                    </g>
+                    <circle cx="193.021" cy="192.458" r="14.449"/>
+                </g>
+                </svg>
+                  </div>
+                  
+                  
+                  <div id="v4">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     width="386.318px" height="383.263px" viewBox="0 0 386.318 383.263" enable-background="new 0 0 386.318 383.263"
+                     xml:space="preserve">
+                <g>
+                    <g>
+                        <path d="M130.94,3.861c0,0,22.969,107.389,27.945,126.642c7.857,30.4,27.35,60.646,27.35,60.646l12.485-2.974
+                            c0,0-59.456-196.799-67.78-187.881"/>
+                        <path d="M48.472,334.449c0,0,85.37-69.078,100.287-82.228c23.553-20.765,41.703-51.834,41.703-51.834l-8.302-9.789
+                            c0,0-148.589,142.079-136.869,145.465"/>
+                        <path d="M383.356,248.43c0,0-101.435-42.082-120.107-48.92c-29.485-10.797-65.449-11.929-65.449-11.929l-4.644,11.965
+                            c0,0,195.751,62.826,193.136,50.909"/>
+                    </g>
+                    <circle cx="193.021" cy="192.458" r="14.449"/>
+                </g>
+                </svg>
+                  </div>
+                  
+                  
+                </div>
+                <div class="sign">
+                  <h1>Windmills</h1>
+                  <p>Pure CSS object rotation</p>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+    <!-- Feature Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="btn-lg-square bg-primary rounded-circle me-3">
+                            <i class="fa fa-users text-white"></i>
+                        </div>
+                        <h1 class="mb-0" data-toggle="counter-up">3453</h1>
+                    </div>
+                    <h5 class="mb-3">Happy Customers</h5>
+                    <span>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit</span>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="btn-lg-square bg-primary rounded-circle me-3">
+                            <i class="fa fa-check text-white"></i>
+                        </div>
+                        <h1 class="mb-0" data-toggle="counter-up">4234</h1>
+                    </div>
+                    <h5 class="mb-3">Project Done</h5>
+                    <span>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit</span>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="btn-lg-square bg-primary rounded-circle me-3">
+                            <i class="fa fa-award text-white"></i>
+                        </div>
+                        <h1 class="mb-0" data-toggle="counter-up">3123</h1>
+                    </div>
+                    <h5 class="mb-3">Awards Win</h5>
+                    <span>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit</span>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="btn-lg-square bg-primary rounded-circle me-3">
+                            <i class="fa fa-users-cog text-white"></i>
+                        </div>
+                        <h1 class="mb-0" data-toggle="counter-up">1831</h1>
+                    </div>
+                    <h5 class="mb-3">Expert Workers</h5>
+                    <span>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature Start -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+        <div class="container about px-lg-0">
+            <div class="row g-0 mx-lg-0">
+                <div class="col-lg-6 ps-lg-0 wow fadeIn" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/about.jpg" style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="p-lg-5 pe-lg-0">
+                        <h6 class="text-primary">About Us</h6>
+                        <h1 class="mb-4">25+ Years Experience In Solar & Renewable Energy Industry</h1>
+                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
+                        <p><i class="fa fa-check-circle text-primary me-3"></i>Diam dolor diam ipsum</p>
+                        <p><i class="fa fa-check-circle text-primary me-3"></i>Aliqu diam amet diam et eos</p>
+                        <p><i class="fa fa-check-circle text-primary me-3"></i>Tempor erat elitr rebum at clita</p>
+                        <a href="" class="btn btn-primary rounded-pill py-3 px-5 mt-3">Explore More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h6 class="text-primary">Our Services</h6>
+                <h1 class="mb-4">We Are Pioneers In The World Of Renewable Energy</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img-600x400-1.jpg" alt="">
+                        <div class="position-relative p-4 pt-0">
+                            <div class="service-icon">
+                                <i class="fa fa-solar-panel fa-3x"></i>
+                            </div>
+                            <h4 class="mb-3">Solar Panels</h4>
+                            <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                            <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img-600x400-2.jpg" alt="">
+                        <div class="position-relative p-4 pt-0">
+                            <div class="service-icon">
+                                <i class="fa fa-wind fa-3x"></i>
+                            </div>
+                            <h4 class="mb-3">Wind Turbines</h4>
+                            <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                            <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img-600x400-3.jpg" alt="">
+                        <div class="position-relative p-4 pt-0">
+                            <div class="service-icon">
+                                <i class="fa fa-lightbulb fa-3x"></i>
+                            </div>
+                            <h4 class="mb-3">Hydropower Plants</h4>
+                            <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                            <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img-600x400-4.jpg" alt="">
+                        <div class="position-relative p-4 pt-0">
+                            <div class="service-icon">
+                                <i class="fa fa-solar-panel fa-3x"></i>
+                            </div>
+                            <h4 class="mb-3">Solar Panels</h4>
+                            <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                            <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img-600x400-5.jpg" alt="">
+                        <div class="position-relative p-4 pt-0">
+                            <div class="service-icon">
+                                <i class="fa fa-wind fa-3x"></i>
+                            </div>
+                            <h4 class="mb-3">Wind Turbines</h4>
+                            <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                            <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img-600x400-6.jpg" alt="">
+                        <div class="position-relative p-4 pt-0">
+                            <div class="service-icon">
+                                <i class="fa fa-lightbulb fa-3x"></i>
+                            </div>
+                            <h4 class="mb-3">Hydropower Plants</h4>
+                            <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                            <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Feature Start -->
+    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+        <div class="container feature px-lg-0">
+            <div class="row g-0 mx-lg-0">
+                <div class="col-lg-6 feature-text py-5 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="p-lg-5 ps-lg-0">
+                        <h6 class="text-primary">Why Choose Us!</h6>
+                        <h1 class="mb-4">Complete Commercial & Residential Solar Systems</h1>
+                        <p class="mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
+                        <div class="row g-4">
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-lg-square bg-primary rounded-circle">
+                                        <i class="fa fa-check text-white"></i>
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="mb-0">Quality</p>
+                                        <h5 class="mb-0">Services</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-lg-square bg-primary rounded-circle">
+                                        <i class="fa fa-user-check text-white"></i>
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="mb-0">Expert</p>
+                                        <h5 class="mb-0">Workers</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-lg-square bg-primary rounded-circle">
+                                        <i class="fa fa-drafting-compass text-white"></i>
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="mb-0">Free</p>
+                                        <h5 class="mb-0">Consultation</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-lg-square bg-primary rounded-circle">
+                                        <i class="fa fa-headphones text-white"></i>
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="mb-0">Customer</p>
+                                        <h5 class="mb-0">Support</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 pe-lg-0 wow fadeIn" data-wow-delay="0.5s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/feature.jpg" style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->
+
+
+    <!-- Projects Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h6 class="text-primary">Our Projects</h6>
+                <h1 class="mb-4">Visit Our Latest Solar And Renewable Energy Projects</h1>
+            </div>
+            <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-12 text-center">
+                    <ul class="list-inline mb-5" id="portfolio-flters">
+                        <li class="mx-2 active" data-filter="*">All</li>
+                        <li class="mx-2" data-filter=".first">Solar Panels</li>
+                        <li class="mx-2" data-filter=".second">Wind Turbines</li>
+                        <li class="mx-2" data-filter=".third">Hydropower Plants</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.5s">
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img-600x400-6.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="img/img-600x400-6.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="pt-3">
+                        <p class="text-primary mb-0">Solar Panels</p>
+                        <hr class="text-primary w-25 my-2">
+                        <h5 class="lh-base">We Are pioneers of solar & renewable energy industry</h5>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img-600x400-5.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="img/img-600x400-5.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="pt-3">
+                        <p class="text-primary mb-0">Wind Turbines</p>
+                        <hr class="text-primary w-25 my-2">
+                        <h5 class="lh-base">We Are pioneers of solar & renewable energy industry</h5>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item third">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img-600x400-4.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="img/img-600x400-4.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="pt-3">
+                        <p class="text-primary mb-0">Hydropower Plants</p>
+                        <hr class="text-primary w-25 my-2">
+                        <h5 class="lh-base">We Are pioneers of solar & renewable energy industry</h5>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img-600x400-3.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="img/img-600x400-3.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="pt-3">
+                        <p class="text-primary mb-0">Solar Panels</p>
+                        <hr class="text-primary w-25 my-2">
+                        <h5 class="lh-base">We Are pioneers of solar & renewable energy industry</h5>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img-600x400-2.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="img/img-600x400-2.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="pt-3">
+                        <p class="text-primary mb-0">Wind Turbines</p>
+                        <hr class="text-primary w-25 my-2">
+                        <h5 class="lh-base">We Are pioneers of solar & renewable energy industry</h5>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item third">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img-600x400-1.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="img/img-600x400-1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="pt-3">
+                        <p class="text-primary mb-0">Hydropower Plants</p>
+                        <hr class="text-primary w-25 my-2">
+                        <h5 class="lh-base">We Are pioneers of solar & renewable energy industry</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Projects End -->
+
+
+    <!-- Quote Start -->
+    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+        <div class="container quote px-lg-0">
+            <div class="row g-0 mx-lg-0">
+                <div class="col-lg-6 ps-lg-0 wow fadeIn" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/quote.jpg" style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 quote-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="p-lg-5 pe-lg-0">
+                        <h6 class="text-primary">Free Quote</h6>
+                        <h1 class="mb-4">Get A Free Quote</h1>
+                        <p class="mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control border-0" placeholder="Your Name" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="email" class="form-control border-0" placeholder="Your Email" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control border-0" placeholder="Your Mobile" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <select class="form-select border-0" style="height: 55px;">
+                                        <option selected>Select A Service</option>
+                                        <option value="1">Service 1</option>
+                                        <option value="2">Service 2</option>
+                                        <option value="3">Service 3</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control border-0" placeholder="Special Note"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary rounded-pill py-3 px-5" type="submit">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Quote End -->
+
+
+    <!-- Team Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h6 class="text-primary">Team Member</h6>
+                <h1 class="mb-4">Experienced Team Members</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item rounded overflow-hidden">
+                        <div class="d-flex">
+                            <img class="img-fluid w-75" src="img/team-1.jpg" alt="">
+                            <div class="team-social w-25">
+                                <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="p-4">
+                            <h5>Full Name</h5>
+                            <span>Designation</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item rounded overflow-hidden">
+                        <div class="d-flex">
+                            <img class="img-fluid w-75" src="img/team-2.jpg" alt="">
+                            <div class="team-social w-25">
+                                <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="p-4">
+                            <h5>Full Name</h5>
+                            <span>Designation</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item rounded overflow-hidden">
+                        <div class="d-flex">
+                            <img class="img-fluid w-75" src="img/team-3.jpg" alt="">
+                            <div class="team-social w-25">
+                                <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="p-4">
+                            <h5>Full Name</h5>
+                            <span>Designation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h6 class="text-primary">Testimonial</h6>
+                <h1 class="mb-4">What Our Clients Say!</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-img position-relative">
+                        <img class="img-fluid rounded-circle mx-auto mb-5" src="img/testimonial-1.jpg">
+                        <div class="btn-square bg-primary rounded-circle">
+                            <i class="fa fa-quote-left text-white"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-text text-center rounded p-4">
+                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
+                        <h5 class="mb-1">Client Name</h5>
+                        <span class="fst-italic">Profession</span>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-img position-relative">
+                        <img class="img-fluid rounded-circle mx-auto mb-5" src="img/testimonial-2.jpg">
+                        <div class="btn-square bg-primary rounded-circle">
+                            <i class="fa fa-quote-left text-white"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-text text-center rounded p-4">
+                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
+                        <h5 class="mb-1">Client Name</h5>
+                        <span class="fst-italic">Profession</span>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-img position-relative">
+                        <img class="img-fluid rounded-circle mx-auto mb-5" src="img/testimonial-3.jpg">
+                        <div class="btn-square bg-primary rounded-circle">
+                            <i class="fa fa-quote-left text-white"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-text text-center rounded p-4">
+                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
+                        <h5 class="mb-1">Client Name</h5>
+                        <span class="fst-italic">Profession</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-body footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Address</h5>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Quick Links</h5>
+                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="">Our Services</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="">Support</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Project Gallery</h5>
+                    <div class="row g-2">
+                        <div class="col-4">
+                            <img class="img-fluid rounded" src="img/gallery-1.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded" src="img/gallery-2.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded" src="img/gallery-3.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded" src="img/gallery-4.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded" src="img/gallery-5.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded" src="img/gallery-6.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Newsletter</h5>
+                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a href="#">Solar Panel</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a href="">HDream Diver</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

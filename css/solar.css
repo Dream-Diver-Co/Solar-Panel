@@ -1,0 +1,198 @@
+/* body {
+    background:#0578E0;
+     font-family:Helvetica, Arial, sans-serif;
+    padding:5% 0 0 0;
+    margin:0;
+  } */
+
+  .bg-hero{
+    background:#0578E0;
+    /* background-color: #32c36c; */
+  }
+
+  .hero{
+    height: 100px;
+    width: 300px;
+  }
+  
+  .container-hero {
+    position:relative;
+    width:1000px;
+    margin:0 auto;
+    height:650px;
+    padding:0;
+  }
+  /* .container {
+    position:relative;
+    width:1000px;
+    margin:0 auto;
+    height:586px;
+    padding:0;
+  } */
+  
+  
+  .sign {
+    background:#000;
+    clear:both:
+    color:#fff;
+    text-align:center;
+    padding:2.5em 40px 3.5em;
+    margin:0;
+  }
+  
+  .sign h1 {
+    color:#fff;
+   
+    font-size:4em;
+    margin:0;
+    letter-spacing:-0.03em;
+  }
+  
+  .sign p {
+    color:#fff;
+    margin:0;
+    font-size:18px;
+  }
+  
+  .stolby {
+    position:absolute;
+    left:200px;
+    top:0;
+    margin-top:243px;
+  }
+  
+  #v1, #v2, #v3, #v4 {
+       animation: 2s motion1 infinite linear;
+     position:absolute;
+      top:0;
+  }
+  
+  #v1 {
+    left:377px; 
+    top:66px;
+  
+  }
+  
+  #v2 {
+      left:45px;
+    top:147px;
+  -moz-transform: scale(0.7) rotate(0deg);
+  -webkit-transform: scale(0.7) rotate(0deg);
+  -o-transform: scale(0.7) rotate(0deg);
+  -ms-transform: scale(0.7) rotate(0deg);
+  transform: scale(0.7) rotate(0deg);
+    animation: 2s motion2 infinite linear;
+  }
+  
+  #v3 {
+    left:510px;
+    top:243px;
+    -moz-transform: scale(0.5) rotate(0deg);
+    -webkit-transform: scale(0.5) rotate(0deg);
+    -o-transform: scale(0.5) rotate(0deg);
+    -ms-transform: scale(0.5) rotate(0deg);
+    transform: scale(0.5) rotate(0deg);
+    animation: 2s motion3 infinite linear;
+    opacity:0.9;
+  }
+  
+  #v4 {
+    left:184px;
+    top:313px;
+    -moz-transform: scale(0.3) rotate(0deg);
+    -webkit-transform: scale(0.3) rotate(0deg);
+    -o-transform: scale(0.3) rotate(0deg);
+    -ms-transform: scale(0.3) rotate(0deg);
+    transform: scale(0.3) rotate(0deg);
+    animation: 2s motion4 infinite linear;
+    opacity:0.7;
+  }
+  
+  @keyframes motion1 {
+    from {}
+    
+  
+    to {
+      -moz-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      transform: rotate(360deg);
+  
+    }
+  }
+  
+  @keyframes motion2 {
+    from {}
+    
+  
+    to {
+    -moz-transform: scale(0.7) rotate(360deg);
+    -webkit-transform: scale(0.7) rotate(360deg);
+    -o-transform: scale(0.7) rotate(360deg);
+    -ms-transform: scale(0.7) rotate(360deg);
+    transform: scale(0.7) rotate(360deg);
+  
+    }
+  }
+  
+  @keyframes motion3 {
+    from {}
+    
+  
+    to {
+    -moz-transform: scale(0.5) rotate(360deg);
+    -webkit-transform: scale(0.5) rotate(360deg);
+    -o-transform: scale(0.5) rotate(360deg);
+    -ms-transform: scale(0.5) rotate(360deg);
+    transform: scale(0.5) rotate(360deg);
+  
+    }
+  }
+  
+  @keyframes motion4 {
+    from {}
+    
+  
+    to {
+    -moz-transform: scale(0.3) rotate(360deg);
+    -webkit-transform: scale(0.3) rotate(360deg);
+    -o-transform: scale(0.3) rotate(360deg);
+    -ms-transform: scale(0.3) rotate(360deg);
+    transform: scale(0.3) rotate(360deg);
+  
+    }
+  }
+
+  /* For screens smaller than 768px (e.g., smartphones) */
+@media only screen and (max-width: ) {
+    .container-hero {
+      width: 100%; /* Make the container full width */
+      padding: 0 20px; /* Add some padding to the sides */
+      height: auto; /* Allow the height to adjust dynamically */
+    }
+  
+    .stolby {
+      position: static; /* Change position to static to allow content to flow */
+      margin-top: 10%; /* Adjust margin-top for smaller screens */
+    }
+  
+    #v1, #v2, #v3, #v4 {
+      position: relative; /* Change position to relative to fit in the flow */
+      top: auto; /* Remove top positioning */
+      left: auto; /* Remove left positioning */
+      transform: none; /* Remove any transforms */
+      animation: none; /* Disable animations */
+    }
+  }
+  
+  /* For screens between 768px and 1023px (e.g., tablets) */
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Add specific styles as needed */
+  }
+  
+  /* For screens larger than 1023px (e.g., desktops) */
+  @media only screen and (min-width: 1024px) {
+    /* Add specific styles as needed */
+  }
+  
