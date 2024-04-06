@@ -19,7 +19,7 @@
     position:relative;
     width:1000px;
     margin:0 auto;
-    height:650px;
+    height:750px;
     padding:0;
   }
   /* .container {
@@ -58,7 +58,7 @@
     position:absolute;
     left:200px;
     top:0;
-    margin-top:243px;
+    margin-top:343px;
   }
   
   #v1, #v2, #v3, #v4 {
@@ -69,13 +69,13 @@
   
   #v1 {
     left:377px; 
-    top:66px;
+    top:167px;
   
   }
   
   #v2 {
       left:45px;
-    top:147px;
+    top:245px;
   -moz-transform: scale(0.7) rotate(0deg);
   -webkit-transform: scale(0.7) rotate(0deg);
   -o-transform: scale(0.7) rotate(0deg);
@@ -86,7 +86,7 @@
   
   #v3 {
     left:510px;
-    top:243px;
+    top:344px;
     -moz-transform: scale(0.5) rotate(0deg);
     -webkit-transform: scale(0.5) rotate(0deg);
     -o-transform: scale(0.5) rotate(0deg);
@@ -98,7 +98,7 @@
   
   #v4 {
     left:184px;
-    top:313px;
+    top:414px;
     -moz-transform: scale(0.3) rotate(0deg);
     -webkit-transform: scale(0.3) rotate(0deg);
     -o-transform: scale(0.3) rotate(0deg);
