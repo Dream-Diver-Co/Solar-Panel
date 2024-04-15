@@ -200,4 +200,115 @@
   @media only screen and (min-width: 1024px) {
     /* Add specific styles as needed */
   }
+
+
+  /* hero responsive */
+
+  @media screen and (max-width: 767px) {
+    /* CSS rules for mobile devices */
+
+    .hero-big{
+      display: none;
+    }
+
+    .hero-text{
+      margin-top: 35px;
+      margin-left: 10px;
+      z-index: 1;
+    }
+    .container-hero {
+      position: relative;
+      width: 367px !important;
+      margin: 0 auto;
+      height: 542px;
+      padding: 0;
+    }
+    .stolby {
+      position: absolute;
+      left: -221px;
+      top: 0;
+      margin-top: 135px;
+    }
+    #v2 {
+      left: -40px;
+      top: -45px;
+      
+    }
+    #v4 {
+      left: 91px;
+      top: 136px;
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+      /* CSS rules for tablets */
+
+      .hero-small{
+        display: none;
+      }
+
+      .hero-text{
+        margin-top: 40px;
+        margin-left: 15px;
+        z-index: 1;
+      }
+
+      .container-hero {
+        position: relative;
+        width: 768px !important;
+        margin: 0 auto;
+        height: 674px;
+        padding: 0;
+      }
+    
+      .stolby {
+        position: absolute;
+        left: 123px;
+        top: 0;
+        margin-top: 267px;
+      }
+
+      #v1 {
+        left: 302px;
+        top: 91px;
+      }
+
+      #v2 {
+        left: -34px;
+        top: 170px;
+    }
+
+      #v3 {
+        left: 434px;
+        top: 269px;
+      }
+
+    #v4 {
+      left: 108px;
+      top: 338px;
+     
+    }
+  }
+  
+  @media screen and (min-width: 992px) and (max-width: 1199px) {
+    /* CSS rules for desktops */
+    .hero-small{
+      display: none;
+    }
+
+    .hero-text{
+      margin-top: 50px;
+      margin-left: 15px;
+      z-index: 1;
+    }
+
+  }
+  
+  @media screen and (min-width: 1200px) {
+    /* CSS rules for large desktops */
+
+    .hero-small{
+      display: none;
+    }
+  }
   
