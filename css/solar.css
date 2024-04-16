@@ -6,8 +6,12 @@
   } */
 
   .bg-hero{
-    background:#0578E0;
+    /* background:#0578E0; */
     /* background-color: #32c36c; */
+    background-image: url("../img/sky.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  
   }
 
   .hero{
@@ -310,6 +314,6 @@
     .hero-small{
       display: none;
     }
-    
+
   }
   
