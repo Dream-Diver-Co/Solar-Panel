@@ -8,7 +8,7 @@
   .bg-hero{
     /* background:#0578E0; */
     /* background-color: #32c36c; */
-    background-image: url("../img/sky.jpg");
+    background-image: url("../img/sky.gif");
     background-repeat: no-repeat;
     background-size: cover;
   
@@ -75,11 +75,10 @@
      position:absolute;
       top:0;
   }
-  
+
   #v1 {
-    left:377px; 
-    top:167px;
-  
+    left: 280px;
+    top: 70px;
   }
   
   #v2 {
